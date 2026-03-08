@@ -28,8 +28,8 @@ The Dockerfile is used to build a Docker image containing the Go web application
 2. Containerization
 Containerization is the process of packaging an application and its dependencies into a container. Docker is used to containerize the Go web application.
 
-Build, Run, and Push Docker Image
-3. Continuous Integration (CI)
+3. Build, Run, and Push Docker Image
+Continuous Integration (CI)
 CI automates the integration of code changes into a shared repository. GitHub Actions is used to implement CI for the Go web application.
 
 4. Continuous Deployment (CD)
