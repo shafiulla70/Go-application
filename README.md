@@ -1,10 +1,10 @@
 # Go-application
 Go · Docker · Kubernetes (EKS) · Helm · GitHub Actions · ArgoCD · AWS | GitHub Built a complete DevOps pipeline for a Go web application with containerization. Containerized the application using Docker multi-stage builds. Automated CI/CD with GitHub Actions and managed deployment to AWS EKS using ArgoCD. 
 
-DevOpsify the Golang Web Application
+## DevOpsify the Golang Web Application
 The main goal of this project is to implement DevOps practices in the Go web application. The project is a simple website written in Golang. It uses the net/http package to serve HTTP requests.
 
-Project Overview
+### Project Overview
 This project involves the following DevOps practices:
 
 Creating Dockerfile (Multi-stage build)
@@ -20,7 +20,8 @@ EKS CTL
 Kubectl
 Helm
 ArgoCD
-Steps to Implement DevOps Practices
+
+### Steps to Implement DevOps Practices
 1. Creating Dockerfile (Multi-stage build)
 The Dockerfile is used to build a Docker image containing the Go web application and its dependencies. A Multi-stage build reduces the size of the final Docker image and enhances security by removing unnecessary files and packages.
 
